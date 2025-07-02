@@ -1,1 +1,9 @@
-# DSA-Documentation
+# DSA-Documentation Using SQL
+## Project Topic: Kultra Mega Stores Inventory
+### Project Introduction / Overview
+This project contains a set of SQL scripts designed to practice and demonstrate SQL skills as part of learning Data Structures and Algorithms (DSA) in the context of data analysis and database management. Kultra Mega Stores (KMS), headquartered in Lagos, specialises in office supplies and furniture. Its customer base includes individual consumers, small businesses (retail), and large corporate clients (wholesale) across Lagos, Nigeria. This projects is based on the order data from 2009 to 2012 that needs to be analyzed.  The main file in this repository, **`DSA SQLQuery1 PROJECT.sql`**, includes SQL queries that: - Retrieve, filter, and manipulate data from relational database - Explore SQL concepts like joins, grouping, aggregate functions, subqueries, and data modification - Solve practice problems or use-case scenarios relevant to data analysis. The purpose of this project is both educational and practical: it helps learners solidify SQL knowledge through hands-on examples, it can serve as a template or starting point for future projects involving SQL queries for data retrieval and reporting. Whether you are: A student learning SQL fundamentals, A developer looking for query examples,Or a data professional revising SQL techniques,you’ll find this repository helpful.
+
+### How To Apply SQL Queries To KMS_Invenory
+create your database
+The second step in analyzing this data is File imprtation, find out what file the data carries, is it CSV, Excel,etc if its CSV you imort your file using 'import flat file'then you proceed to  cleaning your data, the name of the file should not have spacing SQL does not support spacing, if at all use square brackets, ensure the data type align with your data check for errors or nulls, make sure your data is successful if it is it would show success , which shows your data was suucessfullly imported
+The next step is applying the queries: finding out the Which product category had the highest sales? 
