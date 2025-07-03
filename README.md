@@ -7,8 +7,6 @@ This project contains a set of SQL scripts designed to practice and demonstrate 
 The primary source of data used is the KMS Sql Case Study.csv, it can be freely downloaded as it is an open source data, it can be downloaded freely by open source online such as google data search, Kaggle etc.
 
 ### Tools Used
- - Ms Excel for Data Cleaning
-   - Data Arranging
- - SQL Server
-   - Data Manipulation
+ - SQL Server [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
+   - Data Cleaning
    - Quering and Analysis
