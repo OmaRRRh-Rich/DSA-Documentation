@@ -10,3 +10,43 @@ The primary source of data used is the KMS Sql Case Study.csv, it can be freely 
  - SQL Server [Download Here](https://learn.microsoft.com/en-us/ssms/install/install)
    - Data Cleaning
    - Quering and Analysis
+
+### Data Loading and Preparation
+In the initial phase we perform the following action:
+1. Data Importing/Loading, Renaming and Inspection
+2. handling missing variables
+3. Changing datatype and Formatting
+
+### Exploratory Data Analysis
+
+
+
+
+### Data Analysis
+
+```  SQL
+select top 1
+product_category,
+sum(sales) as totalsales
+from
+KMS_Sql_Case_Study
+group by
+product_category
+order by
+totalsales desc
+
+```  
+
+### Visualisation
+![image](https://github.com/user-attachments/assets/9389921e-b725-47cb-9313-e68afbdde961)
+
+
+
+
+
+
+
+
+
+
+
