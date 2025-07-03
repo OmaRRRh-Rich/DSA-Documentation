@@ -23,6 +23,7 @@ In the initial phase we perform the following action:
 
 
 ### Data Analysis
+1.	Which product category had the highest sales? 
 
 ```  SQL
 select top 1
@@ -39,6 +40,73 @@ totalsales desc
 
 ### Visualisation
 ![image](https://github.com/user-attachments/assets/9389921e-b725-47cb-9313-e68afbdde961)
+
+2. What are the Top 3 and Bottom 3 regions in terms of sales? 
+``` SQL
+select top 3 Region, sum(sales) as
+totalsales
+from KMS_Sql_Case_Study
+group by Region
+order by totalsales desc
+
+select top 3 Region, sum(sales) as
+totalsales
+from KMS_Sql_Case_Study
+group by Region
+order by totalsales asc
+
+```
+### Visualization
+![image](https://github.com/user-attachments/assets/5ea04730-672e-4cab-ae80-7d04e3514b52)
+
+3.	What were the total sales of appliances in Ontario?
+``` SQL
+select sum(sales) as
+appliancesalesinontario
+from KMS_Sql_Case_Study
+where province = 'ontario'
+and product_sub_category = 'Appliances';
+
+```
+### Visualization
+![image](https://github.com/user-attachments/assets/44f32bbe-888a-44e0-9461-f6799b4d1490)
+
+4.	Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers 
+``` SQL
+select top 10 Customer_Name, sum(sales)
+as totalsales
+from KMS_Sql_Case_Study
+group by Customer_Name
+order by Totalsales asc
+
+```
+### Visualization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
