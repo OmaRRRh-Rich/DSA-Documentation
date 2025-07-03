@@ -291,6 +291,17 @@ SELECT
      1. Personalized promotions
      2. Loyalty programs
      3. Direct engagement
+- Returns Reduction
+   - Consumer segment has highest return rates. Consider:
+     1.Improving product quality for high-return items
+     2.Transparent return policies
+### Conclusions
+The KMS analysis revealed:
+ - Clear revenue drivers in Office Supplies and Furniture.
+ - Significant cost challenges tied to shipping.
+ - Regional disparities that can be addressed with targeted strategies.
+ - Opportunities to improve customer retention and reduce returns.
+Through SQL querying, data visualization, and interpretation, actionable insights have been uncovered to support KMS management in data-driven decision-making for sustainable growth.
 
 
 
