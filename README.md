@@ -295,6 +295,7 @@ SELECT
    - Consumer segment has highest return rates. Consider:
      1.Improving product quality for high-return items
      2.Transparent return policies
+     
 ### Conclusions
 The KMS analysis revealed:
  - Clear revenue drivers in Office Supplies and Furniture.
@@ -303,7 +304,9 @@ The KMS analysis revealed:
  - Opportunities to improve customer retention and reduce returns.
 Through SQL querying, data visualization, and interpretation, actionable insights have been uncovered to support KMS management in data-driven decision-making for sustainable growth.
 
-
+### Refenceces
+SQL Management Studio 21
+Inubator hub on youtube
 
 
 
